@@ -1,18 +1,23 @@
-{ 
-    "name":"calculator",
-	"author":"Vinicius Ribas",
-	"description":"A calculator project",
-	"version": "1.0.0",
-	"dependencies": {
-		"body": "^5.1.0",
-		"body-parser": "^1.15.2",
-		"cookie-parser": "^1.4.3",
-		"dotenv": "^16.0.1",
-		"express": "^4.14.0",
-		"parser": "^0.1.4"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	}
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "creating a calculator",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ribas93/Calculadora.git"
+  },
+  "author": "Vinicius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ribas93/Calculadora/issues"
+  },
+  "homepage": "https://github.com/Ribas93/Calculadora#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodeman": "^1.1.2"
+  }
 }
